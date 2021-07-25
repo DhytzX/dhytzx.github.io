@@ -1570,6 +1570,24 @@ h3,
   margin-top: 50px !important;
 }
 
+.height-wrap {
+  height: 100vh;
+}
+.centerObject {
+  display:flex !important;
+	flex-direction:row !important;
+	justify-content:center !important;
+	align-items:center !important;
+}
+.centerText {
+  text-align: center !important;
+}
+.centerRow {
+  padding: 150px;
+}
+.centerVertical {
+  margin-top: 7%;
+}
 /* STATS STYLE */
 .statistics{
   display: flex;
@@ -1710,14 +1728,14 @@ h3,
   .nav-link:hover {
     color: #cc0707 !important;
   }
-  .centergnrp {
-    text-align: center !important;
-  }
   .centeredstatsheader {
     margin-left: 14% !important;
   }
   .centeredobject {
     margin-left: 18px !important;
+  }
+  .centergnrp {
+    text-align: center !important;
   }
   .centeredh {
     margin-left: 8px !important;
