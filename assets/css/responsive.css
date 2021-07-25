@@ -47,16 +47,23 @@
     transform: scaleX(1);
   }
   .pgMainNavigation .nav-link {
-    padding: 0 0 10.8px;
+    padding: 0 0 10px;
   }
-  .pgMainNavigation .nav-link:after {
-    content: "";
+  .nav-link:after {
+    /*content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 35%;*/
+    content: "";
+    display: block;
+    width: 23px !important;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: -10px;
+    /* padding-bottom: 5px; */
   }
   .pgMainNavigation .nav-link:hover:after {
     opacity: 1;
@@ -82,7 +89,7 @@
     width: auto;
     height: 3px;
   }
-  .navbar-expand-md .pgMainNavigation .nav-link {
+  .navbar-expand-md .pgMainNavigation {
     padding-left: 0;
     padding-right: 0;
   }
