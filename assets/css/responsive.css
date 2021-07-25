@@ -24,10 +24,18 @@
   .sponsorsList > li {
     width: 25%;
   }
+  
+  .container-g {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
 }
 @media (max-width: 576px) {
-  h1, 
-  .h1 {
+  .title-gnrp {
     font-size: 1.47rem;
   }
   .hp-sz {
@@ -118,7 +126,7 @@
     transform: none;
   }
   .headingTitle {
-    padding-left: 91px;
+    padding-left: 3px;
   }
   .headingTitle:before {
     background-size: 50px 2px, 10px 2px, 7px 7px;
@@ -174,14 +182,6 @@
   }
   .head-space {
     height: 2rem;
-  }
-  .container-g {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
   }
   /*.hitfont {
     font-size: 23px;

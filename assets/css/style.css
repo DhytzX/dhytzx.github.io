@@ -675,27 +675,9 @@ h3,
 }
 .headingTitle {
   font-size: 18px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
-.headingTitle:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-}
-.headingTitle:before {
-  background-image: -webkit-linear-gradient(left, white 0%, white 100%),
-    -webkit-linear-gradient(left, white 0%, white 100%),
-    -webkit-radial-gradient(center ellipse, #ffc514 0%, #ffc514 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0)
-          100%);
-  background-image: linear-gradient(90deg, white 0%, white 100%), linear-gradient(90deg, white 0%, white 100%),
-    radial-gradient(ellipse at center, #ffc514 0%, #ffc514 50%, rgba(255, 197, 20, 0) 50%, rgba(255, 197, 20, 0) 100%);
-  background-repeat: no-repeat;
-  background-size: 20px 2px, 7px 2px, 7px 7px;
-  background-position: 0 50%, 27px 50%, 43px 50%;
-  width: 51px;
-}
+
 .ibSlider,
 .ibSlider .slick-list,
 .ibSlider .slick-track,
@@ -786,14 +768,23 @@ h3,
   height: 70px;
 }
 .hasLineBottom:after {
-  content: "";
+  /* content: ""; 
+  border-bottom: 3px solid #cc0707;
+  border-radius: 2px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 0;*/
+  content: "";
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 .hasLineBottom:after {
-  width: 27px;
+  width: 180px !important;
+  transform-origin: 0 0 0;
+  border-radius: 16px;
   height: 3px;
+  background-color: #cc0707 !important; 
 }
 .msColumn:before {
   content: "";
@@ -1642,7 +1633,7 @@ h3,
   color: #cc0707;
 }
 .statistics .counter i.loading{
-  color:white;
+  color:#ffc514;
 }
 .centerObj .col-md-6{
 	display:flex;
@@ -1664,7 +1655,7 @@ h3,
   background-color: #040913 !important;
 }
 /*  MEDIA QUERY */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   /* NAVIGATION BURGER */
   :root {
     --button-width: 30px;
@@ -1727,10 +1718,10 @@ h3,
     color: #cc0707 !important;
   }
   .centeredstatsheader {
-    margin-left: 14% !important;
+    margin-left: 13% !important;
   }
   .centeredobject {
-    margin-left: 18px !important;
+    margin-left: 16px !important;
   }
   .centergnrp {
     text-align: center !important;
