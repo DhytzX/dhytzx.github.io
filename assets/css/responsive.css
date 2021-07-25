@@ -24,6 +24,15 @@
   .sponsorsList > li {
     width: 25%;
   }
+}
+@media (max-width: 576px) {
+  h1, 
+  .h1 {
+    font-size: 1.47rem;
+  }
+  .hp-sz {
+    font-size: 0.8rem;
+  }
   .container-g {
     position: absolute;
     top: 50%;
@@ -31,11 +40,6 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-  }
-}
-@media (max-width: 576px) {
-  .hp-sz {
-    font-size: 0.8rem;
   }
 }
 @media (min-width: 768px) {
