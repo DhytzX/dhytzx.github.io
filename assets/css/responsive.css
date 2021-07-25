@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (min-width: 576px) {  
   .ibImgHolder {
     z-index: 1;
     max-width: 100%;
@@ -23,6 +23,19 @@
   }
   .sponsorsList > li {
     width: 25%;
+  }
+  .container-g {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+@media (max-width: 576px) {
+  .hp-sz {
+    font-size: 0.8rem;
   }
 }
 @media (min-width: 768px) {
@@ -155,6 +168,17 @@
     z-index: 2;
     background-color: #19232b;
   }
+  .head-space {
+    height: 2rem;
+  }
+  .container-g {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
   /*.hitfont {
     font-size: 23px;
   }*/
@@ -232,6 +256,9 @@
   .btnTop {
     margin-left: 450px;
   }
+  .head-space {
+    height: 4rem;
+  }
 }
 @media (min-width: 1230px) {
   h1,
@@ -282,6 +309,9 @@
   }
   .btnTop {
     margin-left: 567px;
+  }
+  .head-space {
+    height: 4rem;
   }
 }
 @media (max-width: 991.98px) {

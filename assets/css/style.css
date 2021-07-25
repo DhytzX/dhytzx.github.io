@@ -1418,7 +1418,7 @@ h3,
   margin: 214px 0 0 -4px;
 }
 .edot2 {
-  margin: -149px 0 0 69px;
+  margin: -179px 0 0 -439px;
 }
 .edot2:before {
   -webkit-animation-delay: 0.3s;
@@ -1426,7 +1426,7 @@ h3,
 }
 .edot3 {
   /* margin: 222px 0 0 348px; */
-  margin: 276px 0 0 498px;
+  margin: 60px 0 0 208px;
 }
 .edot3:before {
   -webkit-animation-delay: 0.5s;
@@ -1585,9 +1585,7 @@ h3,
 .centerRow {
   padding: 150px;
 }
-.head-space {
-  height: 5rem;
-}
+
 /* STATS STYLE */
 .statistics{
   display: flex;
