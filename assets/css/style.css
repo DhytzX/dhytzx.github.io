@@ -1585,8 +1585,8 @@ h3,
 .centerRow {
   padding: 150px;
 }
-.centerVertical {
-  margin-top: 7%;
+.head-space {
+  height: 5rem;
 }
 /* STATS STYLE */
 .statistics{
